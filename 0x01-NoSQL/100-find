@@ -1,0 +1,3 @@
+// Use Regex to search for a document
+
+db.school.find({name: {$regex: /^Holberton/}})
